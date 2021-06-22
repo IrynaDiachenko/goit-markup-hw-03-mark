@@ -1,0 +1,205 @@
+
+ :root {
+    --text-color: #212121;  /*коричневый*/
+    --color-link: #2196F3;  /*голубой*/
+    --color-tipe: #757575;  /*серый*/
+    --main-color: #FFFFFF;  /*белый*/
+    --color-font: #2F303A;  /*темно серый*/
+
+}
+
+
+
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: var(--text-color);
+}
+
+.logo
+{
+    
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    font-style: normal;
+    color: var(--text-color);
+    letter-spacing: 0.03em;
+    
+}
+.logo-accent {
+    color: var(--color-link);
+}
+
+a {
+    text-decoration: none;
+    /* Убираем подчеркивание */
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+
+ 
+.header-adress {
+    font-weight: 500;
+    Line-height: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+ 
+}
+
+.test-link:hover,
+.header-adress:hover,
+.footer-adress:hover,
+.test-link:focus,
+.header-adress:focus,
+.footer-adress:focus
+{
+    color: var(--color-link);
+}
+
+.test-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color);
+    letter-spacing: 0.02em;
+}
+
+.header-adress,
+.command {
+    color: var(--color-tipe);
+}
+ 
+.main-title {
+    color: var(--main-color);
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.5;
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+}
+
+.title {
+    background-color: var(--color-font);
+}
+
+.btn-order {
+color: var(--main-color);
+background-color: var(--color-link);
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.8;
+}
+
+
+.features-title {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.12;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.features-subject {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+h2 .hero-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+
+.command {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+}
+
+
+.footer-adress {
+    color: var(--main-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-adress-mail,
+.footer-adress-tel {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress-mail:hover,
+.footer-adress-tel:hover,
+.footer-adress-mail:focus,
+.footer-adress-tel:focus {
+    color: var(--color-link);
+}
+
+
+
+.top-menu {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.18;
+ letter-spacing: 0.03em;
+}
+
+.top-menu:hover,
+.top-menu:focus {
+color: var(--main-color);
+background-color: var(--color-link);
+}
+
+.btn-order,
+.top-menu {
+cursor: pointer;
+}
+
+.hero {
+    background-color: #F5F4FA;
+}
+
+.picture-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+
+
+.description{
+    color: var(--color-tipe);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+.footer-contacts {
+    background-color: var(--color-font);
+}
+
+footer .logo {
+    color: var(--main-color);
+}
+
